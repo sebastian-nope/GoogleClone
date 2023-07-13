@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Search the world's information, including webpages, images, videos, and more. Google has many special features to help you find exactly what you're looking for.">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/tablet.css" media="screen and (min-width: 450px)">
+    <link rel="stylesheet" href="./style/desktop.css" media="screen and (min-width: 1024px)">
+    <script src="https://kit.fontawesome.com/d18818b3d0.js" crossorigin="anonymous"></script>
+    <title>Google</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div><button class="elm-header"><i class="fa-solid fa-bars" id="barras"></i></button></div>
+            <div><a href="#" class="elm-header" id="all"><strong>ALL</strong></a></div>
+            <div><a href="#" class="elm-header" id="images"><strong>IMAGES</strong></a></div>
+            <div><a href="#" class="word-header-desktop" id="gmail">Gmail</a></div>
+            <div><a href="#" class="word-header-desktop" id="images-desktop">Images</a></div>
+            <div id="div-header"></div>
+            <div><button class="elm-header"><i class="fa-regular fa-bell elm-header-desktop" id="campana"></i></button></div>
+            <div><button><i class="fa-solid fa-grip elm-header-desktop" id="menu"></i></button></div>
+            <div><a href="#"><i class="fa-solid fa-user elm-header-desktop" id="usuario"></i></a></div>
+        </div>
+    </header>
+    <main>
+        <div class="div-google">
+            <picture class="picture-google">
+                <source media="(min-width: 1024px)" srcset="./imgs/googlelogo_large.png">
+                <img src="/imgs/googlelogo_small.png" alt="Logo de Google en blanco" title="Google">
+            </picture>
+        </div>
+        <div id="espacio-busqueda">
+            <div id="barra-de-busqueda">
+                <button id="boton-lupa">
+                    <div id="div-lupa"><i class="fa-solid fa-magnifying-glass" id="lupa"></i></div>
+                </button>
+                <div id="div-input">
+                    <input type="text" id="input-busqueda">
+                </div>
+                <button id="boton-camara">
+                    <div id="div-camara"><i class="fa-solid fa-camera" id="camara"></i></div>
+                </button>
+            </div>
+        </div>
+        <div class="div-opciones-busqueda">
+            <div class="opciones-busqueda" id="buscar-google">
+                <div class="sub-google"><span class="span-sub-google">Google Search</span></div>
+                <div class="sub-google"><span class="span-sub-google">I'm Felling Lucky</span>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div id="div-footer">
+            <div id="div-pais">
+                <span> Hi World </span>
+            </div>
+            <div id="div-opciones">
+                <div id="opciones">
+                        <span class="span-opciones">Dark theme: on</span>
+                        <span class="span-opciones">Settings</span>
+                        <span class="span-opciones">Privacy</span>
+                        <span class="span-opciones-fin">Terms</span>
+                </div>
+                <div id="opciones-2">
+                        <span class="span-opciones">Advertising</span>
+                        <span class="span-opciones">Business</span>
+                        <span class="span-opciones-fin">About</span>
+                </div>
+                <div id="opciones-desktop">
+                        <span class="span-opciones">About</span>
+                        <span class="span-opciones">Advertising</span>
+                        <span class="span-opciones">Business</span>
+                        <span class="span-opciones">How Search works</span>
+                        <div id="div-footer-opciones"></div>
+                        <span class="span-opciones">Privacy</span>
+                        <span class="span-opciones">Terms</span>
+                        <span class="span-opciones-fin">Settings</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

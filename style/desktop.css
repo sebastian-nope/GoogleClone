@@ -1,0 +1,121 @@
+/* Header */
+
+.container {
+    justify-content: flex-end;
+}
+
+.word-header-desktop {
+    color: white;
+    font-size: 1.3rem;
+    padding-right: 1.5rem;
+}
+
+.elm-header-desktop {
+    padding: 0.7rem 1.5rem;
+}
+
+#barras {
+    display: none;
+}
+
+#all {
+    display: none;
+}
+
+#images {
+    display: none;
+}
+
+#gmail {
+    display: inline;
+}
+
+#images-desktop {
+    display: inline;
+}
+
+#div-header {
+    display: none;
+}
+
+#campana {
+    color: rgba(255,255,255,0.87);
+}
+
+
+/* Main */
+
+
+.div-google {
+    margin-top: 3.6rem;
+    margin-bottom: 1.8rem;
+}
+
+.picture-google {
+    margin-top: 6.5rem;
+}
+
+.div-opciones-busqueda {
+    display: flex;
+}
+
+#barra-de-busqueda {
+    width: 40%;
+    height: 110%;
+    background-color: rgba(0,0,0,0);
+}
+
+#barra-de-busqueda:hover {
+    border-color: rgb(48, 49, 52);
+    background-color: rgb(48, 49, 52);
+}
+
+#lupa {
+    font-size: 1.45rem;
+}
+
+#boton-camara {
+    display: inline;
+}
+
+/* Footer */
+
+#div-pais {
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+}
+
+#div-opciones {
+    font-size: 1.4rem;
+    color: #999da2;
+}
+
+#opciones {
+    display: none;
+}
+
+#opciones-2 {
+    display: none;
+}
+
+#opciones-desktop {
+    width: 100%;
+    padding: 0rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#div-footer-opciones {
+    display: block;
+    width: 36.3%;
+}
+
+.span-opciones {
+    padding: 1.5rem;
+}
+
+.span-opciones-fin {
+    padding: 1.5rem;
+}

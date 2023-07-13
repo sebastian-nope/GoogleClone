@@ -1,0 +1,312 @@
+/* General */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(154, 160, 166);
+}
+
+body {
+    background-color: rgb(32, 33, 36);
+    color: #9aa0a6;;
+    font-family: Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+button {
+    border-style: none;
+    background-color: rgba(0,0,0,0);
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 1rem;
+}
+
+.elm-header {
+    color: rgb(154, 160, 166);
+}
+
+.palabras-header {
+    padding: 0rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin: 0rem;
+    margin-right: 0.8rem;
+}
+
+.iconos-header {
+    padding: 1.2rem 1.6rem;
+}
+
+#barras {
+    font-size: 1.9rem;
+}
+
+#all {
+    color: rgb(138, 180, 248);
+    border-width: 0rem;
+    border-bottom: 0.2rem;
+    border-style: solid;
+    border-color: rgb(138, 180, 248);
+    padding: 0rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+#gmail {
+    display: none;
+}
+
+#images-desktop {
+    display: none;
+}
+
+
+#campana {
+    font-size: 1.9rem;
+}
+
+#menu {
+    color: rgba(255,255,255,0.87);
+    font-size: 1.8rem;
+}
+
+#usuario {
+    color: rgba(255,255,255,0.87);
+    font-size: 2.2rem;
+}
+
+/* Main */
+
+main {
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.div-google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-top: 3.6rem;
+    margin-bottom: 1.8rem;
+    margin-left: 28.65%;
+    margin-right: 28.65%;
+}
+
+.picture-google {
+    margin: 0.8rem 0rem;
+    max-width: 16rem;
+    max-height: 5.6rem;
+}
+
+.div-opciones-busqueda {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 2rem;
+}
+
+.opciones-busqueda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.sub-google {
+    display: inline-block;
+    color: #e8eaed;
+    font-size: 1.4rem;
+    margin: 1.1rem 0.4rem;
+    padding: 0rem 1.6rem;
+    border-style: solid;
+    border-color: #303134;
+    border-width: 0.1rem;
+    border-radius: 0.5rem;
+    background-color: #303134;
+}
+
+.span-sub-google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 3.4rem;
+}
+
+#espacio-busqueda {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+#barra-de-busqueda {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(112, 117, 122);
+    border-width: 0.1rem;
+    border-radius: 5rem;
+    background-color: rgb(48, 49, 52);
+}
+
+#boton-lupa {
+    width: 10%;
+    height: 95%;
+    padding-left: 0.8rem;
+    margin-right: -0.1rem;
+}
+
+#div-lupa {
+    width: 100%;
+    height: 63.53%;
+    margin: 0.7rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lupa {
+    font-size: 1.75rem;
+    color: #9aa0a6;
+}
+
+#boton-camara {
+    display: none;
+    width: 10%;
+    height: 95%;
+    padding-right: 0.8rem;
+    margin-left: -0.1rem;
+}
+
+#div-camara {
+    width: 100%;
+    height: 63.53%;
+    margin: 0.7rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#camara {
+    font-size: 1.75rem;
+    color: #9aa0a6;
+}
+
+#div-input {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 0.7rem;
+    padding-bottom: 0.6rem;
+}
+
+#input-busqueda {
+    width: 100%;
+    height: 100%;
+    padding-left: 1.9rem;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    margin-top: auto;
+}
+
+#div-footer {
+    background-color: rgb(23, 23, 23);
+}
+
+#div-pais {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 1rem;
+    border-width: 0rem;
+    border-bottom: 0.1rem;
+    border-style: solid;
+    border-color: rgb(60, 64, 67);
+    font-size: 1.6rem;
+}
+
+#div-opciones {
+    font-size: 1.3rem;
+}
+
+#opciones {
+    width: 100%;
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#opciones-2 {
+    width: 100%;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#opciones-desktop {
+    display: none;
+}
+
+#div-opciones-footer {
+    display: none;
+}
+
+.span-opciones {
+    padding-left: 2.7rem;
+}
+
+.span-opciones-fin {
+    padding-left: 2.7rem;
+    padding-right: 2.7rem;
+}
